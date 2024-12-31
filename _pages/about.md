@@ -1,49 +1,59 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Cheng Li's Personal Page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My name is Cheng Li, and I am a Chinese girl with a deep fascination for advanced technologies that enhance our daily lives, such as artificial intelligence (AI) and computational linguistics. Over the past two years, I have conducted research exploring the cognitive mechanisms of LLMs (e.g., _EmotionPrompt_ and _NegativePrompt_), multicultural understanding of LLMs (_CultureLLM_ and _CulturePark_), and AI for healthcare (_MentalArena_). I was a research intern at UIUC advised by Prof. Heng Ji. And I have a long internship at Microsoft Research Asia advised by Prof. Xing Xie and Dr. Jindong Wang. Looking ahead, I aspire to contribute to more impactful and innovative work on large models.
 
-A data-driven personal website
+Research Interests
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- **AI for Social Science**: Unveiling Emotions in Generative AI (ICML 2024), NegativePrompt (IJCAI 2024), EmotionPrompt (LLM@IJCAI'23)
+- **Cultural Problems in Large Models**: CultureLLM (NeurIPS 2024), CulturePark (NeurIPS 2024)
+- **AI for Healthcare**: MentalArena (Submitted to ICLR 2025)
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+Publication
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- [**ICML 2024**] The good, the bad, and why: Unveiling emotions in generative ai.<br>**<u>Cheng Li</u>**, Jindong Wang, Yixuan Zhang, Kaijie Zhu, Xinyi Wang, Wenxin Hou, Jianxun Lian, Fang Luo, Qiang Yang, Xing Xie. [[PDF](https://arxiv.org/pdf/2312.11111)]<br>[Implemented by [LlamaIndex](https://docs.llamaindex.ai/en/latest/examples/prompts/emotion_prompt.html)] [Media coverage: [1](https://techxplore.com/news/2023-08-exploring-effects-emotional-stimuli-large.html), [2](https://flowgpt.com/blog/emoGPT), [3](https://mp.weixin.qq.com/s/z-lg-yDibKoT_gO97HSK5Q), [4](https://www.godofprompt.ai/blog/getting-emotional-with-large-language-models-llms-can-increase-performance-by-115-case-study). [5](https://stackdiary.com/emotionprompts-ai-prompt-study/), [6](https://says.com/my/tech/chatgpt-emotional-intelligence), [7](https://www.prompthub.us/blog/getting-emotional-with-llms), [8](https://www.tradingview.com/news/benzinga:6720a9647094b:0-the-power-of-emotion-how-emotional-manipulation-elevates-chatgpt-s-performance/), [9](https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ%3D%3D&mid=2247565531&idx=2&sn=3ed8cc9e3b5be81cde8f0e0f99865852&ref=openi.cn). [10](https://webappia.com/investigating-the-impact-of-emotional-stimuli-on-language-models-emotionalai/?feed_id=13302&_unique_id=64cfac8201058)] [Reported by [**Forbes**](https://www.forbes.com/sites/lanceeliot/2023/11/11/the-answer-to-why-emotionally-worded-prompts-can-goose-generative-ai-into-better-answers-and-how-to-spur-a-decidedly-positive-rise-out-of-ai/?sh=5383b56e37e5)]
+- [**NeurIPS 2024**] CultureLLM: Incorporating Cultural Differences into Large Language Models.
+  <br>**<u>Cheng Li</u>**, Mengzhuo Chen, Jindong Wang, Sunayana Sitaram, Xing Xie. [[PDF](https://arxiv.org/pdf/2402.10946)]
+- [**NeurIPS 2024**] CulturePark: Boosting Cross-cultural Understanding in Large Language Models.
+  <br>**<u>Cheng Li</u>**, Damien Teney, Linyi Yang, Qingsong Wen, Xing Xie, Jindong Wang. [[PDF](https://arxiv.org/pdf/2405.15145)]
+  <br>[Media coverage: [MIT Technology Review](https://www.mittrchina.com/news/detail/13596), [Vitalbridge](https://mp.weixin.qq.com/s/jHKdadr6ea_3x3AHHx6qFQ)]
+- [**IJCAI 2024**] NegativePrompt: Leveraging Psychology for Large Language Models Enhancement via Negative Emotional Stimuli.
+  <br>Xu Wang\*, **<u>Cheng Li</u>**\*, Yi Chang, Jindong Wang, Yuan Wu. [[PDF](https://arxiv.org/pdf/2405.02814)]  *: Co-first Authors
+- [Arxiv 2024] MentalArena: Self-play Training of Language Models for Diagnosis and Treatment of Mental Health Disorders.
+  <br>**<u>Cheng Li</u>**, May Fung, Qingyun Wang, Chi Han, Manling Li, Jindong Wang, Heng Ji. [[PDF](https://arxiv.org/pdf/2410.06845)]
+- [**LLM@IJCAI'23**] Large language models understand and can be enhanced by emotional stimuli.
+  <br>**<u>Cheng Li</u>**, Jindong Wang, Yixuan Zhang, Kaijie Zhu, Wenxin Hou, Jianxun Lian, Fang Luo, Qiang Yang, Xing Xie. [[PDF](https://arxiv.org/pdf/2307.11760)]
+- [**ICCV 2021**] Vil-100: A new dataset and a baseline model for video instance lane detection.
+  <br>Yujun Zhang, Lei Zhu, Wei Feng, Huazhu Fu, Mingqian Wang, Qingxia Li, **<u>Cheng Li</u>**, Song Wang. [[PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_VIL-100_A_New_Dataset_and_a_Baseline_Model_for_Video_ICCV_2021_paper.pdf)]
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Education
+======
+- Master, Major in Computer Science, Institute of Software, Chinese Academic of Sciences
+- Bachelor, Major in Software Engineering, Tianjin University
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Academic Reviews
+======
+- NeurIPS 2024: The Thirty-Eighth Neural Information Processing System
+- ICLR 2024: The Thirteenth International Conference on Learning Representations
+- ICML 2025: The Forty-Second International Conference on Machine Learning
 
-**Markdown generator**
+Award
+======
+- NeurIPS 2024 Scholar Award
+- ICML 2024 Travel Award
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Project
+======
+[promptbench](https://github.com/microsoft/promptbench) :star: 2.5k
+- Incorporated several representative prompt engineering approaches into an united project for researchers and users to use and evaluate their performance.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Personality and Hobbies
+======
+I'm easy-going and like to meet new friends, which is so interesting and fun!
+  
