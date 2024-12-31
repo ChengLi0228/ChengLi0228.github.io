@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Cheng Li, and I am a Chinese girl with a deep fascination for advanced technologies that enhance our daily lives, such as artificial intelligence (AI) and computational linguistics. Over the past two years, I have conducted research exploring the cognitive mechanisms of LLMs (e.g., _EmotionPrompt_ and _NegativePrompt_), multicultural understanding of LLMs (_CultureLLM_ and _CulturePark_), and AI for healthcare (_MentalArena_). I was a research intern at UIUC advised by Prof. Heng Ji. And I have a long internship at Microsoft Research Asia advised by Prof. Xing Xie and Dr. Jindong Wang. Looking ahead, I aspire to contribute to more impactful and innovative work on large models.
+My name is Cheng Li, and I am a Chinese girl with a deep fascination for advanced technologies that enhance our daily lives, such as artificial intelligence (AI) and computational linguistics. Over the past two years, I have conducted research exploring the cognitive mechanisms of LLMs (e.g., _EmotionPrompt_ and _NegativePrompt_), multicultural understanding of LLMs (_CultureLLM_ and _CulturePark_), and AI for healthcare (_MentalArena_). I was a research intern at UIUC advised by [Prof. Heng Ji](https://blender.cs.illinois.edu/hengji.html). And I have a long internship at Microsoft Research Asia advised by [Prof. Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/?from=https://research.microsoft.com/users/xingx&type=exact) and [Dr. Jindong Wang](https://jd92.wang/). Looking ahead, I aspire to contribute to more impactful and innovative work on large models.
 
 Research Interests
 ======
