@@ -147,8 +147,8 @@ collections:
     defaults:
       layout: post
     output: false
-  projects:
-    output: true
+  # projects:
+  #   output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -191,13 +191,7 @@ exclude:
   - vendor
   - _pages/blog.md
   - _posts/
-  - _projects
-  - _pages/projects.md
-  - _pages/repositories.md
-  - _pages/teaching.md
-  - _pages/people.md
-  - _pages/dropdown.md
-  
+  - _projects/?_project.md
 keep_files:
   - CNAME
   - .nojekyll
