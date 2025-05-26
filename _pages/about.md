@@ -2,10 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: left
+  align: right
   image: profile.JPG
   image_circular: false # crops the image to make it circular
   # more_info: >
@@ -28,7 +28,16 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI reseacher, working on human-centered AI. 
+I am an AI reseacher, working on human-centered AI. I am a Master student at Institute of Software, Chinese Academy of Science. Previously, I was an undergraduate student at Tianjin University. In summer 2024, I had an internship at UIUC, advised by [Prof.Heng Ji](https://blender.cs.illinois.edu/hengji.html). Before that, I have a long internship at Microsoft Research Asia, advised by [Prof.Xing Xie](https://www.microsoft.com/en-us/research/people/xingx/?from=https://research.microsoft.com/users/xingx&type=exact) and [Prof.Jindong Wang](https://jd92.wang/).
+
+
+My research interests including:
+  - AI for Social Science:
+  - Cultural Problem in Large Models:
+  - AI for Mental Health:
+
+ 
+
 
 
 
