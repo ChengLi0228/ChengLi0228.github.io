@@ -1,0 +1,8 @@
+<!-- Projects Awarded Section -->
+<div class="media_coverage">
+  {% for page in site.pages %}
+    {% if page.path == "_pages/media_coverage.md" %}
+      {{ page.content | markdownify }}
+    {% endif %}
+  {% endfor %}
+</div>

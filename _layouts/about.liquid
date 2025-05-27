@@ -56,6 +56,11 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Media Coverage -->
+    {% if page.media_coverage %}
+      {% include media_coverage.liquid limit=true %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
